@@ -1,6 +1,4 @@
 <script>
-  /** Set the width of the head actions */
-  export let width = "100%";
 </script>
 
 <style>
@@ -8,7 +6,6 @@
     display: flex;
     height: 47px;
     margin: auto 0 0;
-    width: var(--width);
 
     /* .header-action {
       margin-right: 3px;
@@ -20,6 +17,6 @@
   }
 </style>
 
-<div id="header-actions" style="--width: {width}">
+<div id="header-actions">
   <slot />
 </div>

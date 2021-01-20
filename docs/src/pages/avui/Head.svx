@@ -34,7 +34,7 @@ The `Head` component
 
 <Head>
   <HeadIdentity title="Test title" subtitle="Test subtitle" imgSrc="https://via.placeholder.com/200x200" />
-  <HeadActions width="unset">
+  <HeadActions>
     <HeadAction href="/#/add" icon={Close32} description="Add Project" />
   </HeadActions>
 </Head>

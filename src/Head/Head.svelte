@@ -10,6 +10,8 @@
 
   /** Set the margin of the head */
   export let margin = "20px 0 15px";
+
+  export let test = "test";
 </script>
 
 <style>
@@ -43,6 +45,7 @@
       id="header"
       style="--flex-direction: {flexDirection}; --margin: {margin}"
     >
+      {test}
       <slot />
     </div>
   </Column>

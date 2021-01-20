@@ -1361,8 +1361,9 @@ None.
 
 | Prop name     | Kind             | Reactive | Type                                    | Default value              | Description                       |
 | :------------ | :--------------- | :------- | :-------------------------------------- | -------------------------- | --------------------------------- |
-| flexDirection | <code>let</code> | No       | <code>"row" &#124; "row-reverse"</code> | <code>'row'</code>         | Set the flexDirection of the head |
-| margin        | <code>let</code> | No       | <code>string</code>                     | <code>'20px 0 15px'</code> | Set the margin of the head        |
+| flexDirection | <code>let</code> | No       | <code>"row" &#124; "row-reverse"</code> | <code>"row"</code>         | Set the flexDirection of the head |
+| margin        | <code>let</code> | No       | <code>string</code>                     | <code>"20px 0 15px"</code> | Set the margin of the head        |
+| test          | <code>let</code> | No       | <code>string</code>                     | <code>"test"</code>        | --                                |
 
 ### Slots
 
@@ -1398,9 +1399,7 @@ None.
 
 ### Props
 
-| Prop name | Kind             | Reactive | Type                | Default value       | Description                       |
-| :-------- | :--------------- | :------- | :------------------ | ------------------- | --------------------------------- |
-| width     | <code>let</code> | No       | <code>string</code> | <code>"100%"</code> | Set the width of the head actions |
+None.
 
 ### Slots
 
@@ -1437,8 +1436,8 @@ None.
 | title     | <code>let</code> | No       | <code>string</code>                                 | --                    | Specify the href attribute     |
 | subtitle  | <code>let</code> | No       | <code>string</code>                                 | --                    | Specify the subtitle attribute |
 | imgSrc    | <code>let</code> | No       | <code>string</code>                                 | --                    | Specify the imgSrc attribute   |
-| imgSize   | <code>let</code> | No       | <code>"small" &#124; "normal" &#124; "large"</code> | <code>'normal'</code> | Set the imgSize of the head    |
-| titleSize | <code>let</code> | No       | <code>"small" &#124; "normal" &#124; "large"</code> | <code>'normal'</code> | Set the titleSize of the head  |
+| imgSize   | <code>let</code> | No       | <code>"small" &#124; "normal" &#124; "large"</code> | <code>"normal"</code> | Set the imgSize of the head    |
+| titleSize | <code>let</code> | No       | <code>"small" &#124; "normal" &#124; "large"</code> | <code>"normal"</code> | Set the titleSize of the head  |
 
 ### Slots
 

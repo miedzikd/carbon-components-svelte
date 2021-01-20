@@ -1,12 +1,6 @@
 /// <reference types="svelte" />
 
-export interface HeadActionsProps {
-  /**
-   * Set the width of the head actions
-   * @default "100%"
-   */
-  width?: string;
-}
+export interface HeadActionsProps {}
 
 export default class HeadActions {
   $$prop_def: HeadActionsProps;

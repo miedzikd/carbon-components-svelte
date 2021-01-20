@@ -18,13 +18,13 @@ export interface HeadIdentityProps {
 
   /**
    * Set the imgSize of the head
-   * @default 'normal'
+   * @default "normal"
    */
   imgSize?: "small" | "normal" | "large";
 
   /**
    * Set the titleSize of the head
-   * @default 'normal'
+   * @default "normal"
    */
   titleSize?: "small" | "normal" | "large";
 }

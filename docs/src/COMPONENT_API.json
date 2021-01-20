@@ -4919,7 +4919,7 @@
           "kind": "let",
           "description": "Set the flexDirection of the head",
           "type": "\"row\" | \"row-reverse\"",
-          "value": "'row'",
+          "value": "\"row\"",
           "isFunction": false,
           "constant": false,
           "reactive": false
@@ -4929,7 +4929,16 @@
           "kind": "let",
           "description": "Set the margin of the head",
           "type": "string",
-          "value": "'20px 0 15px'",
+          "value": "\"20px 0 15px\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "test",
+          "kind": "let",
+          "type": "string",
+          "value": "\"test\"",
           "isFunction": false,
           "constant": false,
           "reactive": false
@@ -4978,18 +4987,7 @@
     {
       "moduleName": "HeadActions",
       "filePath": "/src/Head/HeadActions.svelte",
-      "props": [
-        {
-          "name": "width",
-          "kind": "let",
-          "description": "Set the width of the head actions",
-          "type": "string",
-          "value": "\"100%\"",
-          "isFunction": false,
-          "constant": false,
-          "reactive": false
-        }
-      ],
+      "props": [],
       "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
       "events": [],
       "typedefs": []
@@ -5038,7 +5036,7 @@
           "kind": "let",
           "description": "Set the imgSize of the head",
           "type": "\"small\" | \"normal\" | \"large\"",
-          "value": "'normal'",
+          "value": "\"normal\"",
           "isFunction": false,
           "constant": false,
           "reactive": false
@@ -5048,7 +5046,7 @@
           "kind": "let",
           "description": "Set the titleSize of the head",
           "type": "\"small\" | \"normal\" | \"large\"",
-          "value": "'normal'",
+          "value": "\"normal\"",
           "isFunction": false,
           "constant": false,
           "reactive": false

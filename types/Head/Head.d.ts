@@ -3,15 +3,20 @@
 export interface HeadProps {
   /**
    * Set the flexDirection of the head
-   * @default 'row'
+   * @default "row"
    */
   flexDirection?: "row" | "row-reverse";
 
   /**
    * Set the margin of the head
-   * @default '20px 0 15px'
+   * @default "20px 0 15px"
    */
   margin?: string;
+
+  /**
+   * @default "test"
+   */
+  test?: string;
 }
 
 export default class Head {

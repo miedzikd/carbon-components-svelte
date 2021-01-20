@@ -62,7 +62,7 @@
 
   #header-identity {
     display: flex;
-    width: 100%;
+    flex-grow: 1;
   }
 
   #header-identity-img {
