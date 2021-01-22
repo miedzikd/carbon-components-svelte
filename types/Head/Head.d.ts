@@ -12,11 +12,6 @@ export interface HeadProps {
    * @default "20px 0 15px"
    */
   margin?: string;
-
-  /**
-   * @default "test"
-   */
-  test?: string;
 }
 
 export default class Head {

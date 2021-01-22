@@ -1,0 +1,20 @@
+---
+layout: "avui"
+components: ["Blade"]
+---
+
+<script>
+  import Preview from "../../components/Preview.svelte";
+</script>
+
+### Default
+
+<FileSource src="/framed/Blade/Blade" />
+
+### Margin Top
+
+<FileSource src="/framed/Blade/MarginTopBlade" />
+
+### No Gutter
+
+<FileSource src="/framed/Blade/NoGutterBlade" />

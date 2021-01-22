@@ -1,6 +1,6 @@
 # Component Index
 
-> 160 components exported from carbon-components-svelte@0.26.0.
+> 161 components exported from carbon-components-svelte@0.26.0.
 
 ## Components
 
@@ -8,6 +8,7 @@
 - [`AccordionItem`](#accordionitem)
 - [`AccordionSkeleton`](#accordionskeleton)
 - [`AspectRatio`](#aspectratio)
+- [`Blade`](#blade)
 - [`Breadcrumb`](#breadcrumb)
 - [`BreadcrumbItem`](#breadcrumbitem)
 - [`BreadcrumbSkeleton`](#breadcrumbskeleton)
@@ -259,6 +260,28 @@ None.
 | Slot name | Default | Props | Fallback |
 | :-------- | :------ | :---- | :------- |
 | --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Blade`
+
+### Props
+
+| Prop name | Kind             | Reactive | Type                 | Default value      | Description                        |
+| :-------- | :--------------- | :------- | :------------------- | ------------------ | ---------------------------------- |
+| open      | <code>let</code> | Yes      | <code>boolean</code> | <code>false</code> | Set to `true` to open the modal    |
+| noGutter  | <code>let</code> | No       | <code>boolean</code> | <code>false</code> | Set to `true` to remove the gutter |
+| marginTop | <code>let</code> | No       | <code>string</code>  | --                 | Set the flexDirection of the head  |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+| footer    | No      | --    | --       |
+| header    | No      | --    | --       |
 
 ### Events
 
@@ -1363,7 +1386,6 @@ None.
 | :------------ | :--------------- | :------- | :-------------------------------------- | -------------------------- | --------------------------------- |
 | flexDirection | <code>let</code> | No       | <code>"row" &#124; "row-reverse"</code> | <code>"row"</code>         | Set the flexDirection of the head |
 | margin        | <code>let</code> | No       | <code>string</code>                     | <code>"20px 0 15px"</code> | Set the margin of the head        |
-| test          | <code>let</code> | No       | <code>string</code>                     | <code>"test"</code>        | --                                |
 
 ### Slots
 

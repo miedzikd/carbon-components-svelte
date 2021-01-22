@@ -2778,6 +2778,11 @@ svelte-preprocess@^4.0.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
+svelte-slimscroll@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/svelte-slimscroll/-/svelte-slimscroll-1.0.6.tgz#4a20900ab0a35f4a440acd1594fd0b9d6466ca16"
+  integrity sha512-un2+lDdLKyV7+z+y3JYz4CXcAcf2RKX5B1r7YzUCUJGPYfFVq88cnZaV2Btbco7kmFC100ikfOM8ADy9YZuVFA==
+
 svelte@^3.29.7:
   version "3.29.7"
   resolved "https://registry.npmjs.org/svelte/-/svelte-3.29.7.tgz#e254eb2d0d609ce0fd60f052d444ac4a66d90f7d"

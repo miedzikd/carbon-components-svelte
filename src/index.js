@@ -1,5 +1,6 @@
 export { Accordion, AccordionItem, AccordionSkeleton } from "./Accordion";
 export { AspectRatio } from "./AspectRatio";
+export { Blade } from "./Blade";
 export { Breadcrumb, BreadcrumbItem, BreadcrumbSkeleton } from "./Breadcrumb";
 export { Button, ButtonSkeleton, ButtonSet } from "./Button";
 export { Checkbox, CheckboxSkeleton } from "./Checkbox";
